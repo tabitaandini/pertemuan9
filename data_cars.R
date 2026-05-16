@@ -11,3 +11,7 @@ for (i in 1:n){
 }
 
 hist(mtcars$mpg)
+
+# Tambahan Analisis Regresi Linear Sederhana
+model_regresi <- lm(mpg ~ wt, data = mtcars)
+summary(model_regresi)
